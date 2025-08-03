@@ -1,8 +1,54 @@
 import React from 'react'
 import './About.css'
+import Me from '../../assets/me-about.jpg'
+import { TbAwardFilled } from "react-icons/tb";
+import { FiUsers } from "react-icons/fi";
+import { MdOutlineFolderCopy } from "react-icons/md";
+
 const About = () => {
   return (
-    <div>About</div>
+    <section id='about'>
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+
+      <div className="container about__container">
+        <div className="about__me">
+          <div className="about__me-image">
+            <img src={Me} alt="About Image" />
+          </div>
+
+        </div>
+        <div className="about__content">
+          <div className="about__cards">
+            <article className='about__card'>
+              <TbAwardFilled className='about__icon' />
+              <h5>Experience</h5>
+              <small>1+ years</small>
+
+
+            </article>
+            <article className='about__card'>
+              <FiUsers className='about__icon' />
+              <h5>Clients</h5>
+              <small>20+ Clients</small>
+
+
+            </article>
+            <article className='about__card'>
+              <MdOutlineFolderCopy className='about__icon' />
+              <h5>Projects</h5>
+              <small>10+</small>
+            </article>
+          </div>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium quod, dolores rem magni quae ea, iusto repellendus labore similique ut eveniet molestias. Quidem aut nesciunt similique aspernatur repudiandae. Facilis.</p>
+
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+
+        </div>
+      </div>
+    </section>
+
   )
 }
 
