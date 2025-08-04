@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -24,3 +26,5 @@ dist-ssr
 *.sw?
 cv.pdf
 assets
+
+src/components/contact/Contact.jsx

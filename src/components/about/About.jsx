@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Me from '../../assets/me-about.jpg'
+import Me from '../../assets/A51.png'
 import { TbAwardFilled } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { MdOutlineFolderCopy } from "react-icons/md";
@@ -41,7 +41,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laudantium quod, dolores rem magni quae ea, iusto repellendus labore similique ut eveniet molestias. Quidem aut nesciunt similique aspernatur repudiandae. Facilis.</p>
+          <p>A creative and dedicated individual passionate about design and technology. Currently honing my skills in Web Development and UI/UX designing, I am eager to expand my knowledge by mastering the entire process of designing and developing user-friendly applications and  websites while continuously learning and growing in the field of modern technology.</p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 
